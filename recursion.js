@@ -1,11 +1,15 @@
 // 1. Задача (Рекурсия)
 // Дано натуральное число n. Выведите все числа от 1 до n.
+let x =0;
+
+function a (){
+    if (x=n){
+        return n
+    }else{return x+a(n-1)}}
+
+console.log(a(10)) // хз чё не работает
 
 
-function a (n){
-    return (n==0)? 0 : n - a(n-1)   
-} 
-console.log(a(37))             //  ничё не понимаю
 
 
 
