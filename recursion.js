@@ -7,7 +7,7 @@ function a (){
         return n
     }else{return x+a(n-1)}}
 
-console.log(a(10)) // хз чё не работает
+console.log(a(10)) // 
 
 
 
